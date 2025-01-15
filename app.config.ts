@@ -2,19 +2,19 @@ import type Emoji from "./components/OgImage/Emoji.vue";
 
 export default defineAppConfig({
   general: {
-    title: "Minted Directory",
-    logo: "",
+    title: "Nuxt Studio Example",
+    logo: "/logo.png",
     iconLogo: "fluent-emoji-flat:leaf-fluttering-in-wind",
   },
   site: {
     // override the general settings for seo tags.
     // leave empty for general priority.
     // url is necessary for correct function of seo module.
-    name: "Minted Directory",
-    description: "Example Description",
-    url: "https://example.com",
+    name: "Nuxt Studio Example",
+    description: "An example website made with Nuxt Studio",
+    url: "https://mr-july-nuxt-studio-example.nuxt.space/",
     favicon: {
-      image: "",
+      image: "/favicon.ico",
       emoji: "🍃",
     },
   },
